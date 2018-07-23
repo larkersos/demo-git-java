@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/
+      default-zone: http://localhost:8760/eureka/
+server:
+  port: 8772
+spring:
+  application:
+    name: service-hi2
